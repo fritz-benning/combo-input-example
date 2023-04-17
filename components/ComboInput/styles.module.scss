@@ -1,0 +1,14 @@
+.combo-input {
+  width: 800px;
+  display: flex;
+
+  :first-child {
+    margin-right: -1px;
+    flex-grow: 1;
+  }
+
+  :last-child {
+    margin-left: -1px;
+    flex-grow: 1;
+  }
+}
